@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tailwind": "npx tailwindcss -i ./styles/globals.css -o ./build/css/style.css --watch"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
